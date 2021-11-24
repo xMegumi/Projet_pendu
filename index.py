@@ -12,7 +12,7 @@ while choice != "joueur" and choice != "arbitre":
 
 if choice == 'joueur':
     # Génère un mot aléatoire à partir du fichier txt "mots_francais_sans_accents"
-    random_word = random.choice(open("Projet_1\mots_francais_sans_accents.txt","r").readlines())
+    random_word = random.choice(open("mots_francais_sans_accents.txt","r").readlines())
 
     # Transforme le mot en majuscule 
     word = random_word.upper()
